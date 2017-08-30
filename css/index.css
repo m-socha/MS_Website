@@ -1,0 +1,28 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#header {
+  width: 100%;
+  height: 80px;
+  background-color: #F0F0F0;
+}
+
+#headerSelectorHolder {
+  float: right;
+}
+
+#headerSelectorHolder .headerPageSelector {
+  display: inline-block;
+  padding: 0 16px 0 16px;
+  color: #272727;
+  line-height: 80px;
+  text-align: center;
+  font-size: 32px;
+}
+
+#headerSelectorHolder .headerPageSelector.selected {
+  background-color: #E0E0E0;
+}
