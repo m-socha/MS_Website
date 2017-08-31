@@ -1,5 +1,5 @@
-define(['jquery', 'aboutPage'],
-  function($, AboutPage) {
+define(['jquery', 'aboutPage', 'resumePage'],
+  function($, AboutPage, ResumePage) {
 
   var PagesEnum = {
     about: 0,
@@ -49,8 +49,8 @@ define(['jquery', 'aboutPage'],
         selectorId = 'headerPageAboutSelector';
         break;
       case PagesEnum.resume:
-        contentPage = new AboutPage();
-        selectorId = 'headerPageAboutSelector';
+        contentPage = new ResumePage();
+        selectorId = 'headerPageResumeSelector';
         break;
     }
 

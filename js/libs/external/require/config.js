@@ -10,7 +10,8 @@ requirejs.config({
     linkUtil: 'libs/linkUtil',
     mouseEnterLeaveAnimation: 'libs/mouseEnterLeaveAnimation',
     index: 'index',
-    aboutPage: 'pages/about/aboutPage'
+    aboutPage: 'pages/about/aboutPage',
+    resumePage: 'pages/resume/resumePage'
   },
   shim: {
     jqueryColor: ['jquery'],
