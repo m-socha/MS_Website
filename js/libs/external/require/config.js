@@ -6,6 +6,8 @@ requirejs.config({
     jquery: 'libs/external/jquery/jquery-3.2.1.min',
     underscore: 'libs/external/underscore/underscore-1.8.3.min',
     backbone: 'libs/external/backbone/backbone-1.3.3.min',
+    linkUtil: 'libs/linkUtil',
+    mouseEnterLeaveAnimation: 'libs/mouseEnterLeaveAnimation',
     index: 'index',
     aboutPage: 'pages/about/aboutPage'
   },

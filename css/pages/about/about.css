@@ -1,0 +1,59 @@
+#aboutProfileImageHolder {
+  display: inline-block;
+  float: left;
+  margin-right: 16px;
+}
+
+#aboutProfileImage {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%
+}
+
+#aboutSummary {
+  min-height: 250px;
+}
+
+#aboutResumeButtonWrapper {
+  text-align: center;
+}
+
+#aboutResumeButton {
+  display: inline-block;
+  padding: 12px;
+  color: white;
+  background-color: #8FBAC8;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+#aboutResumeButton:hover {
+  cursor: pointer;
+}
+
+#aboutContactItemsHolder {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.aboutContactItem {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 16px;
+  border-radius: 8px;
+  background-color: #8FBAC8;
+}
+
+.aboutContactItem:hover {
+  cursor: pointer;
+}
+
+.aboutContactItem .aboutContactItemImage {
+  position: relative;
+  top: 50%;
+  width: 140px;
+  height: 140px;
+  transform: translateY(-50%);
+}
