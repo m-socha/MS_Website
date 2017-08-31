@@ -6,17 +6,19 @@ define(['jquery', 'jqueryColor', 'backbone', 'underscore', 'linkUtil',
   var AboutPage = Backbone.View.extend({
 
     events: {
-      'click #aboutResumeButton': 'openResume' 
+      'click #aboutResumeButton': 'openResume',
+      'click #aboutContactGithubItem': 'openGithub',
+      'click #aboutContactStackoverflowItem': 'openStackoverflow',
+      'click #aboutContactLinkedinItem': 'openLinkedin'
     },
 
     initialize : function(options) {
-      this.LinkUtil = LinkUtil;
       this.render();
     },
 
     render : function() {
       var template = _.template(aboutTpl); 
-      this.$el.html(template({LinkUtil: this.LinkUtil}));
+      this.$el.html(template({LinkUtil: LinkUtil}));
 
       MouseEnterLeaveAnimation.setupAnimation(
         this.$el.find('#aboutResumeButton'),
@@ -46,6 +48,18 @@ define(['jquery', 'jqueryColor', 'backbone', 'underscore', 'linkUtil',
 
     openResume : function() {
       window.open(LinkUtil.docLink("Michael_Socha_Resume.pdf"), "_blank");
+    },
+
+    openGithub : function() {
+      window.open("https://github.com/m-socha", "_blank");
+    },
+
+    openStackoverflow: function() {
+      window.open("http://stackoverflow.com/users/5266538/michael", "_blank");
+    },
+
+    openLinkedin : function() {
+      window.open("https://ca.linkedin.com/in/michael-socha-14002661", "_blank");
     }
   });
 
