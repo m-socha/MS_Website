@@ -1,0 +1,32 @@
+#projectHolder {
+  min-height: 224px;
+  margin: 24px;
+}
+
+#projectContentHolder {
+  margin-right: 230px;
+}
+
+#projectName {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#projectDate {
+  color: #888888;
+  font-size: 14px;
+}
+
+#projectSkills {
+  margin-top: 8px;
+  color: #444444;
+  font-size: 18px;
+}
+
+#projectImage {
+  position: relative;
+  top: 24px;
+  width: 200px;
+  height: 200px;
+  float: right;
+}

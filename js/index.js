@@ -1,5 +1,5 @@
-define(['jquery', 'aboutPage', 'resumePage'],
-  function($, AboutPage, ResumePage) {
+define(['jquery', 'aboutPage', 'projectsPage', 'resumePage'],
+  function($, AboutPage, ProjectsPage, ResumePage) {
 
   var PagesEnum = {
     about: 0,
@@ -45,8 +45,8 @@ define(['jquery', 'aboutPage', 'resumePage'],
         selectorId = 'headerPageAboutSelector';
         break;
       case PagesEnum.projects:
-        contentPage = new AboutPage();
-        selectorId = 'headerPageAboutSelector';
+        contentPage = new ProjectsPage();
+        selectorId = 'headerPageProjectsSelector';
         break;
       case PagesEnum.resume:
         contentPage = new ResumePage();

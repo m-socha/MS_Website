@@ -11,6 +11,9 @@ requirejs.config({
     mouseEnterLeaveAnimation: 'libs/mouseEnterLeaveAnimation',
     index: 'index',
     aboutPage: 'pages/about/aboutPage',
+    projectsPage: 'pages/projects/projectsPage',
+    projectsData: 'pages/projects/projectsData',
+    projectView: 'pages/projects/projectView',
     resumePage: 'pages/resume/resumePage'
   },
   shim: {
