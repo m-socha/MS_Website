@@ -17,6 +17,7 @@ html, body {
 
 #headerSelectorHolder .headerPageSelector {
   display: inline-block;
+  float: left;
   padding: 0 16px 0 16px;
   color: #272727;
   line-height: 80px;

@@ -1,5 +1,7 @@
-define(['jquery', 'aboutPage', 'workTermsPage', 'projectsPage', 'resumePage'],
-  function($, AboutPage, WorkTermsPage, ProjectsPage, ResumePage) {
+define(['jquery', 'jqueryColor', 'aboutPage', 'workTermsPage',
+  'projectsPage', 'resumePage', 'mouseEnterLeaveAnimation'],
+  function($, jqueryColor, AboutPage, WorkTermsPage,
+    ProjectsPage, ResumePage, MouseEnterLeaveAnimation) {
 
   var PagesEnum = {
     about: 0,
@@ -61,6 +63,22 @@ define(['jquery', 'aboutPage', 'workTermsPage', 'projectsPage', 'resumePage'],
       $('#' + selectorId).addClass('selected');
     }
 
+    setupHeaderPageAnimation();
   }
 
+  function setupHeaderPageAnimation() {
+    $('#headerSelectorHolder .headerPageSelector').unbind('mouseenter');
+    $('#headerSelectorHolder .headerPageSelector').unbind('mouseleave');
+
+    $('#headerSelectorHolder .headerPageSelector').not('.selected').css(
+      {'background-color': '#F0F0F0'}
+    );
+    MouseEnterLeaveAnimation.setupAnimation(
+      $('#headerSelectorHolder .headerPageSelector').not('.selected'),
+      {'background-color': '#E0E0E0'},
+      200,
+      {'background-color': '#F0F0F0'},
+      100
+    );
+  }
 });
