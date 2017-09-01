@@ -1,0 +1,32 @@
+#workTermHolder {
+  margin: 24px;
+}
+
+#workTermTitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#workTermEmployer {
+  margin-top: -4px;
+  font-size: 18px;
+}
+
+#workTermDate {
+  color: #888888;
+  font-size: 14px;
+}
+
+#workTermSkills {
+  margin-top: 8px;
+  color: #444444;
+  font-size: 18px;
+}
+
+#workTermImage {
+  position: relative;
+  top: 24px;
+  width: 200px;
+  height: 200px;
+  float: right;
+}

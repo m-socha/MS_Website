@@ -10,7 +10,7 @@ define(['backbone', 'underscore',
 
     render : function() {
       var template = _.template(projectTpl);
-      this.$el.html(template({project: this.project}))
+      this.$el.html(template({project: this.project}));
     }
   });
 

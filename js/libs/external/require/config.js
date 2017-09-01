@@ -14,6 +14,9 @@ requirejs.config({
     projectsPage: 'pages/projects/projectsPage',
     projectsData: 'pages/projects/projectsData',
     projectView: 'pages/projects/projectView',
+    workTermsPage: 'pages/work_terms/workTermsPage',
+    workTermsData: 'pages/work_terms/workTermsData',
+    workTermView: 'pages/work_terms/workTermView',
     resumePage: 'pages/resume/resumePage'
   },
   shim: {
