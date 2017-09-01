@@ -1,5 +1,5 @@
 html, body {
-  min-width: 650px;
+  min-width: 800px;
   padding: 0;
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
@@ -31,9 +31,9 @@ html, body {
 #pageHolder {
   position: absolute;
   top: 100px;
-  right: 120px;
+  right: 280px;
   bottom: 20px;
-  left: 120px;
+  left: 280px;
 }
 
 .standardButtonDiv {
