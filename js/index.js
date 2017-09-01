@@ -57,7 +57,7 @@ define(['jquery', 'aboutPage', 'projectsPage', 'resumePage'],
     if (contentPage && selectorId) {
       $('#pageHolder').html(contentPage.el);
 
-      $('#headerSelectionHolder headerPageSelector').removeClass('selected');
+      $('#headerSelectorHolder .headerPageSelector').removeClass('selected');
       $('#' + selectorId).addClass('selected');
     }
 
