@@ -22,9 +22,9 @@ define(['jquery', 'jqueryColor', 'backbone', 'underscore', 'linkUtil',
 
       MouseEnterLeaveAnimation.setupAnimation(
         this.$el.find('#aboutResumeButton'),
-        {'background-color': '#7FAAB8'},
+        {'background-color': '#6F9AA8'},
         200,
-        {'background-color': '#8FBAC8'},
+        {'background-color': '#7FAAB8'},
         100
       );
 
@@ -39,9 +39,9 @@ define(['jquery', 'jqueryColor', 'backbone', 'underscore', 'linkUtil',
 
       MouseEnterLeaveAnimation.setupAnimation(
         this.$el.find('.aboutContactItem'),
-        {'background-color': '#9FCAD8'},
-        200,
         {'background-color': '#8FBAC8'},
+        200,
+        {'background-color': '#7FAAB8'},
         100
       );
     },
