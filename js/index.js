@@ -3,8 +3,8 @@ define(['jquery', 'aboutPage', 'workTermsPage', 'projectsPage', 'resumePage'],
 
   var PagesEnum = {
     about: 0,
-    workTerms: 1,
-    projects: 2,
+    projects: 1,
+    workTerms: 2,
     resume: 3
   };
 
@@ -19,11 +19,11 @@ define(['jquery', 'aboutPage', 'workTermsPage', 'projectsPage', 'resumePage'],
         case 'headerPageAboutSelector':
           loadContentPage(PagesEnum.about);
           break;
-        case 'headerPageWorkTermsSelector':
-          loadContentPage(PagesEnum.workTerms);
-          break;
         case 'headerPageProjectsSelector':
           loadContentPage(PagesEnum.projects);
+          break;
+        case 'headerPageWorkTermsSelector':
+          loadContentPage(PagesEnum.workTerms);
           break;
         case 'headerPageResumeSelector':
           loadContentPage(PagesEnum.resume);
@@ -40,13 +40,13 @@ define(['jquery', 'aboutPage', 'workTermsPage', 'projectsPage', 'resumePage'],
         contentPage = new AboutPage();
         selectorId = 'headerPageAboutSelector';
         break;
-      case PagesEnum.workTerms:
-        contentPage = new WorkTermsPage();
-        selectorId = 'headerPageWorkTermsSelector';
-        break;
       case PagesEnum.projects:
         contentPage = new ProjectsPage();
         selectorId = 'headerPageProjectsSelector';
+        break;
+      case PagesEnum.workTerms:
+        contentPage = new WorkTermsPage();
+        selectorId = 'headerPageWorkTermsSelector';
         break;
       case PagesEnum.resume:
         contentPage = new ResumePage();
