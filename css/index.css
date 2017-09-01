@@ -1,4 +1,5 @@
 html, body {
+  min-width: 650px;
   padding: 0;
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
