@@ -25,10 +25,6 @@ html, body {
   font-size: 32px;
 }
 
-#headerSelectorHolder .headerPageSelector.selected {
-  background-color: #E0E0E0;
-}
-
 #pageHolder {
   position: absolute;
   top: 100px;
