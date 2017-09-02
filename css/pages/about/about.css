@@ -11,7 +11,7 @@
 }
 
 #aboutSummary {
-  min-height: 250px;
+  min-height: 260px;
 }
 
 #aboutSummary ul {
@@ -19,6 +19,8 @@
 }
 
 #aboutResumeButtonWrapper {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
