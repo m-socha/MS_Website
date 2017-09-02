@@ -20,7 +20,7 @@ define(["linkUtil"], function(LinkUtil) {
       date: "Aug 2014 – Feb 2017",
       skillTags: ["PHP", "JavaScript", "jQuery", "HTML", "CSS"],
       image: LinkUtil.imgLink("kirea_project_icon.png"),
-      description: "<p>KIREA is a Canadian charity that focuses on providing aid and education to impoverished areas of Africa and Asia. Most of KIREA's support comes from individual donations, leading to the need for a system to manage these contributions.</p> <p>As a volunteer, I developed and maintained a backend system and a frontend web UI for the charity's administration to better organize donations and automate certain tasks. The system's features include:</p> <p><ul><li>Ability to add, update and remove donors and associated donation information</li> <li>Automated receipt generation and emailing</li> <li>Data analytics for donation trends and donor history</li></ul></p>"
+      description: "<p>KIREA is a Canadian charity that focuses on providing aid and education to impoverished areas of Africa and Asia. Most of KIREA's support comes from individual donations, leading to the need for a system to manage these contributions.</p> <p>As a volunteer, I developed and maintained a backend system and a frontend web UI for the charity's administration to better organize donations and automate certain tasks. The system's features include:</p> <ul><li>Ability to add, update and remove donors and associated donation information</li> <li>Automated receipt generation and emailing</li> <li>Data analytics for donation trends and donor history</li></ul>"
     },
     {
       name: "UWAQ Aquaponics Sensor System",
