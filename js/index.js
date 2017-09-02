@@ -7,6 +7,7 @@ define(['jquery', 'jqueryColor', 'aboutPage', 'workTermsPage',
     setupHashChangeListener();
     setupHeaderPageSelection();
     handleInitialHash();
+    setupHeaderTitleClickListener();
   });
 
   function setupHashChangeListener() {
@@ -96,5 +97,11 @@ define(['jquery', 'jqueryColor', 'aboutPage', 'workTermsPage',
     } else {
       window.location.hash = "#about";
     }
+  }
+
+  function setupHeaderTitleClickListener() {
+    $('#headerTitle').click(function() {
+      window.location.hash = "#about";
+    });
   }
 });
