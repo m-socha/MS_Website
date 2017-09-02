@@ -1,0 +1,3 @@
+[submodule "projects/CarcassonneClock"]
+	path = projects/CarcassonneClock
+	url = https://github.com/m-socha/CarcassonneClock
