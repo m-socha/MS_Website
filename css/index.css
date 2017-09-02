@@ -37,6 +37,10 @@ html, body {
   font-size: 32px;
 }
 
+#headerSelectorHolder .headerPageSelector:hover {
+  cursor: pointer;
+}
+
 #pageHolder {
   position: absolute;
   top: 100px;
