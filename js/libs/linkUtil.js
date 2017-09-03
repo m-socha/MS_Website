@@ -8,8 +8,13 @@ define([], function() {
     return "../../supportingFiles/docs/" + doc;
   }
 
+  var projectLink = function(project) {
+    return "../../projects/" + project;
+  }
+
   return {
     imgLink: imgLink,
-    docLink: docLink
+    docLink: docLink,
+    projectLink: projectLink
   };
 });

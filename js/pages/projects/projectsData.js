@@ -28,6 +28,13 @@ define(["linkUtil"], function(LinkUtil) {
       skillTags: ["PHP", "Arduino", "JavaScript", "jQuery", "HTML", "CSS"],
       image: LinkUtil.imgLink("uwaq_project_icon.png"),
       description: "<p>The University of Waterloo Aquaponics Design Team (UWAQ) is a student design team that focuses on designing, building and maintaining aquaponics systems, which are farming units that are self-sustaining by automatically cycling the carbon and nitrogen cycles.</p> <p>The performance of aquaponics systems is dependent on various environmental factors, such as water pH and oxygen concentration. To measure these variables, UWAQ's aquaponics system was connected to several sensors that relayed their data to an Arduino microcontroller. The microcontroller then sent these measurements through a serial connection to a computer, which uploaded them to a server for storage and analysis.</p> <p>My role in the project was to construct a PHP and MySQL backend to store the measurements. Additionally, I implemented measurement analysis scripts which would notify team members when any measurements were out of their desired range, and a web UI to help visualize measurement data.</p>"
+    },
+    {
+      name: "Carcassonne Clock",
+      date: "July 2015",
+      skillTags: ["JavaScript", "jQuery", "HTML", "CSS"],
+      image: LinkUtil.imgLink("carcassonne_clock_icon.png"),
+      description: "<p>The Carcassonne Clock is a frontend web application that serves as a time-keeper for the popular board game Carcassonne. The clock supports a variable number of players and includes support for incremental time controls.</p> <p>The app is available <a href='" + LinkUtil.projectLink("CarcassonneClock/") + "' target='_blank'>here</a>."
     }
   ];
 
