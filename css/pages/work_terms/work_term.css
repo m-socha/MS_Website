@@ -1,5 +1,11 @@
-#workTermHolder {
+#workTermContentHolder {
   margin: 24px;
+  padding: 12px;
+  background-color: #EEEEEE;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #BBBBBB;
 }
 
 #workTermTitle {
