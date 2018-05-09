@@ -2,6 +2,21 @@ define([], function() {
   
   var workTerms = [
     {
+      jobTitle: 'Software Engineering Intern',
+      employerName: 'Facebook Inc',
+      employerLocation: 'Menlo Park, CA',
+      date: 'Jan - Apr 2018',
+      skillTags: ['React', 'React Native', 'GraphQL', 'PHP/Hack', 'Hive'],
+      description: '<p>I worked as a Software Engineering Intern on Facebook’s Job Search platform, which is a new initiative that focuses on connecting job seekers'
+        + ' with local employers. I worked on several different areas of the Job Search platform, where my contributions include:</p>'
+        + '<ul>'
+        + '<li>Adding several React Native mobile surfaces to help page admins manage their job posts, including a new applications and upcoming interviews surface</li>'
+        + '<li>Building Hive data pipelines, a PHP API and a React Native mobile front-end to implement an insights dashboard showing page admins key job post metrics</li>'
+        + '<li>Integrating the React-based web job seeker application flow with a new feature that allows users to build resumes</li>'
+        + '<li>Improving performance throughout Job Search mobile surfaces, including expanding pagination and replacing front-end filtering with backend GraphQL filtering</li>'
+        + '</ul>'
+    },
+    {
       jobTitle: 'Mobile Engineer - iOS',
       employerName: 'Wish Inc',
       employerLocation: 'San Francisco, CA',
