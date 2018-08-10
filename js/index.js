@@ -1,7 +1,9 @@
 define(['jquery', 'jqueryColor', 'aboutPage', 'workTermsPage',
-  'projectsPage', 'resumePage', 'mouseEnterLeaveAnimation'],
+  'projectsPage', 'resumePage', 'courseNotesPage',
+  'mouseEnterLeaveAnimation'],
   function($, jqueryColor, AboutPage, WorkTermsPage,
-    ProjectsPage, ResumePage, MouseEnterLeaveAnimation) {
+    ProjectsPage, ResumePage, CourseNotesPage,
+    MouseEnterLeaveAnimation) {
 
   $(document).ready(function() {
     setupHashChangeListener();
@@ -38,6 +40,10 @@ define(['jquery', 'jqueryColor', 'aboutPage', 'workTermsPage',
       case "#resume":
         contentPage = new ResumePage();
         selectorId = 'headerPageResumeSelector';
+        break;
+      case "#course_notes":
+        contentPage = new CourseNotesPage();
+        selectorId = 'headerPageCourseNotesSelector';
         break;
     }
 
@@ -85,6 +91,9 @@ define(['jquery', 'jqueryColor', 'aboutPage', 'workTermsPage',
           break;
         case 'headerPageResumeSelector':
           window.location.hash = "#resume";
+          break;
+        case 'headerPageCourseNotesSelector':
+          window.location.hash = "#course_notes";
           break;
       }
     });

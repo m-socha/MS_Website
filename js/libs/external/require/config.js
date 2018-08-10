@@ -17,7 +17,10 @@ requirejs.config({
     workTermsPage: 'pages/work_terms/workTermsPage',
     workTermsData: 'pages/work_terms/workTermsData',
     workTermView: 'pages/work_terms/workTermView',
-    resumePage: 'pages/resume/resumePage'
+    resumePage: 'pages/resume/resumePage',
+    courseNotesPage: 'pages/course_notes/courseNotesPage',
+    courseNotesData: 'pages/course_notes/courseNotesData',
+    courseNoteView: 'pages/course_notes/courseNoteView'
   },
   shim: {
     jqueryColor: ['jquery'],

@@ -1,0 +1,26 @@
+#courseNoteContentHolder {
+  margin: 24px;
+  padding: 12px;
+  background-color: #EEEEEE;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #BBBBBB;
+  cursor: pointer;
+}
+
+#courseNoteTitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#courseNoteTermTaken {
+  color: #444444;
+  font-size: 14px;
+}
+
+#courseNoteSummary {
+  margin-top: 10px;
+  color: #444444;
+  font-size: 14px;
+}
