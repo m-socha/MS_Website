@@ -1,6 +1,7 @@
 define([], function() {
 
   var courseNotes = [
+    // 4A
     {
       courseName: 'Genetics',
       courseCode: 'BIOL 239',
@@ -36,6 +37,29 @@ define([], function() {
       termTaken: 'Spring 2018',
       summary: 'Course about gathering, representing, and analyzing project requirements and specifications.',
       notesLink: 'https://github.com/m-socha/SE-463-Notes/raw/master/notes.pdf'
+    },
+
+    // 4B
+    {
+      courseName: 'Applied Cryptography',
+      courseCode: 'CO 487',
+      termTaken: 'Winter 2019',
+      summary: 'Overview of common topics in cryptography including symmetric-key encryption, hash functions, message authentication codes, and public key encryption.',
+      notesLink: 'https://github.com/m-socha/CO-487-Notes/raw/master/notes.pdf'
+    },
+    {
+      courseName: 'Database Systems Implementation',
+      courseCode: 'CS 448',
+      termTaken: 'Winter 2019',
+      summary: 'Implementation details of database systems, including data storage, query plans and optimizations, and transactions.',
+      notesLink: 'https://github.com/m-socha/CS-448-Notes/raw/master/notes.pdf'
+    },
+    {
+      courseName: 'Introduction to Machine Learning',
+      courseCode: 'CS 480',
+      termTaken: 'Winter 2019',
+      summary: 'Introductory breadth-focused machine learning course.',
+      notesLink: 'https://github.com/m-socha/CS-480-Notes/raw/master/notes.pdf'
     }
   ];
 
