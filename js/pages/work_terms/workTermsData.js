@@ -4,6 +4,19 @@ define([], function() {
     {
       jobTitle: 'Software Engineering Intern',
       employerName: 'Facebook Inc',
+      employerLocation: 'Seattle, WA',
+      date: 'Sep - Dec 2018',
+      skillTags: ['PHP/Hack', 'React', 'GraphQL', 'Hive'],
+      description: '<p>I worked as a Software Engineering Intern on the Authenticity Team, which supports a platform for verifying entities on Facebook.'
+        + ' I developed a new feature that lets users verify their identity using notary services. My contributions include:</p>'
+        + '<li>Developing a user-facing web wizard, internal tooling, and analytics dashboards for the new feature</li>'
+        + '<li>Handling the project’s cross-functional communications with design, content, and operations teams</li>'
+        + '<li>Overseeing the launch of the project and expansions to new markets</li>'
+        + '</ul>'
+    },
+    {
+      jobTitle: 'Software Engineering Intern',
+      employerName: 'Facebook Inc',
       employerLocation: 'Menlo Park, CA',
       date: 'Jan - Apr 2018',
       skillTags: ['React', 'React Native', 'GraphQL', 'PHP/Hack', 'Hive'],
